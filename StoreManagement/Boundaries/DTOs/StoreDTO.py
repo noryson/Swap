@@ -1,0 +1,3 @@
+
+class StoreDTO:
+    pass

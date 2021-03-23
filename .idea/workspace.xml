@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="05397ce5-be54-49b3-873c-23ce0694e830" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BarterManagement/Entities/OfferAccess.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#75#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Stub" />
+        <option value="Python Unit Test" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>from BarterManagement.Boundaries.DAO import OfferDAO</find>
+      <find>from BarterManagement.Boundaries.DAO import ProofDAO</find>
+      <find>getBarterID</find>
+      <find>OfferProxy</find>
+      <find>ProofProxy</find>
+      <find>BarterManagement.Entities.BarterProx</find>
+      <find>import</find>
+      <find>ConfirmTransfer</find>
+      <find>Confirm</find>
+      <find>databaseIO</find>
+      <find>_realBarter</find>
+      <find>maximum r</find>
+      <find>: datetime</find>
+      <find>'offerIDs'</find>
+      <find>requestItem</find>
+      <find>product</find>
+      <find>Deactived</find>
+      <find>databaseTable</find>
+      <find>Proof</find>
+      <find>barter</find>
+      <find>Barter</find>
+      <find>cache</find>
+      <find>User</find>
+      <find>GroupM</find>
+      <find>tGroup</find>
+      <find>user</find>
+      <find>isAdmin</find>
+      <find>userService.hasProductStorePermission</find>
+      <find>userService.isCurrentUser(ownerID)</find>
+      <find>userService.hasWriteStorePermission()</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>._realBarter.</replace>
+      <replace>(self._userID)</replace>
+      <replace>import BarterManagement.Boundaries.BarterDAO as BarterDAO</replace>
+      <replace>import BarterManagement.Boundaries.OfferDAO as OfferDAO</replace>
+      <replace>import BarterManagement.Boundaries.ProofDAO as ProofDAO</replace>
+      <replace>getID</replace>
+      <replace />
+      <replace>Deny</replace>
+      <replace>Delete</replace>
+      <replace>dbConnection</replace>
+      <replace>: datetime.datetime</replace>
+      <replace>: requestedItem</replace>
+      <replace>requestedItem</replace>
+      <replace>Deactivated</replace>
+      <replace>_databaseTable</replace>
+      <replace>user</replace>
+      <replace>User</replace>
+      <replace>Cache</replace>
+      <replace>Group</replace>
+      <replace>UserM</replace>
+      <replace>tUser</replace>
+      <replace>group</replace>
+      <replace>isStaff</replace>
+      <replace>currentUser.hasProductPrivilege('write')</replace>
+      <replace>currentUserID == ownerID</replace>
+      <replace>currentUser..hasStorePrivilege('write')</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/UserManagement/Interactors/DisplayReportControl.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Interactors/ResolveReportControl.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Entities/UserInterface.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Entities/Subscription.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Entities/DjangoSession.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Entities/Privilege.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Interactors/ActivateUserControl.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Interactors/LoginUserControl.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Interactors/LogoutUserControl.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Interactors/VerifyUserControl.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Entities/User.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Interactors/DisplayUserControl.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Interactors/ChangeUserRoleControl.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Interactors/ChangePasswordControl.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Interactors/ChangeUserPasswordControl.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Interactors/ChangeUserSecretControl.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Interactors/ChangeUserProfileImageControl.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Interactors/UpdateUserLastLoginControl.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Interactors/ResetPasswordControl.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Interactors/CreateGroupControl.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Interactors/DeactivateUserControl.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Entities/DjangoGroup.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Entities/Group.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Interactors/DeleteGroupControl.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Interactors/DisplayGroupControl.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Interactors/AddUserToGroupControl.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Interactors/RemoveUserFromGroupControl.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Entities/DjangoPrivilege.py" />
+        <option value="$PROJECT_DIR$/Exceptions/PrivilegeExceptions.py" />
+        <option value="$PROJECT_DIR$/Exceptions/GroupExceptions.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Interactors/RemoveGroupPrivilegeControl.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Interactors/DeletePrivilegeControl.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Interactors/DisplayPrivilegeControl.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Interactors/GiveGroupPrivilegeControl.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Boundaries/CurrentUserService.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Boundaries/GetUserForm.py" />
+        <option value="$PROJECT_DIR$/BarterManagement/Entities/BarterProxy.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Entities/UserProxy.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Entities/UserAccess.py" />
+        <option value="$PROJECT_DIR$/BarterManagement/Entities/BarterAccess.py" />
+        <option value="$PROJECT_DIR$/Exceptions/UserExceptions.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Entities/DjangoUser.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Boundaries/DAOs/UserDAO.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Entities/GroupProxy.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Entities/GroupAccess.py" />
+        <option value="$PROJECT_DIR$/UserManagement/Boundaries/DAOs/GroupDAO.py" />
+        <option value="$PROJECT_DIR$/BarterManagement/Entities/ProofAccess.py" />
+        <option value="$PROJECT_DIR$/StoreManagement/Entities/CategoryAccess.py" />
+        <option value="$PROJECT_DIR$/StoreManagement/Entities/ProductAccess.py" />
+        <option value="$PROJECT_DIR$/StoreManagement/Entities/StoreAccess.py" />
+        <option value="$PROJECT_DIR$/BarterManagement/Entities/OfferAccess.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="521" />
+    <option name="y" value="38" />
+    <option name="width" value="713" />
+    <option name="height" value="601" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Swap" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\VANGUARD\Projects\Swap" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="Swap" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\VANGUARD\Projects\Swap" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="BarterManagement" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Swap" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\VANGUARD\Projects\Swap" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="UserManagement" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Swap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Swap" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\VANGUARD\Projects\Swap\UserManagement\Entities" />
+      <recent name="C:\Users\VANGUARD\Projects\Swap\NotificationManagement" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\VANGUARD\Projects\Swap\StoreManagement\Entities" />
+      <recent name="C:\Users\VANGUARD\Projects\Swap\StoreManagement\Boundaries" />
+      <recent name="C:\Users\VANGUARD\Projects\Swap\StoreManagement\Boundaries\DTOs" />
+      <recent name="C:\Users\VANGUARD\Projects\Swap\StoreManagement\Boundaries\DAO" />
+      <recent name="C:\Users\VANGUARD\Projects\Swap\BarterManagement\Boundaries\Long" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="Offer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Swap" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BarterManagement/Entities" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BarterManagement/Entities/Offer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Swap" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\VANGUARD\Projects\Swap\BarterMgmtTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.Offer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\VANGUARD\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05397ce5-be54-49b3-873c-23ce0694e830" name="Default Changelist" comment="" />
+      <created>1602734649644</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602734649644</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978038" visible="true" weight="0.17329094" />
+      <window_info id="Structure" order="1" sideWeight="0.5021962" side_tool="true" weight="0.21780604" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32896653" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32896653" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.43377" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49920508" weight="0.24599709" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.1415241" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007949" side_tool="true" weight="0.32751092" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32896653" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="python-exception">
+          <properties notifyOnTerminate="true" exception="builtins.AttributeError">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+          <option name="timeStamp" value="32" />
+        </breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BarterManagement/Boundaries/DeclineOfferButton.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/StorageManagement/Entities/DummyDB.py</url>
+          <line>130</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint enabled="true" log-message="true" log-stack="true" type="python-exception">
+          <properties notifyOnlyOnFirst="true" notifyOnTerminate="true" ignoreLibraries="true" exception="BaseException">
+            <option name="ignoreLibraries" value="true" />
+            <option name="notifyOnTerminate" value="true" />
+            <option name="notifyOnlyOnFirst" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>print(data)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>print(barter)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>from StorageManagement.Entities.DummyDB import DummyDB
+db = DummyDB()
+print(db.BarterTable)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>from BarterManagement.Boundaries.GetBarterForm import GetBarterForm
+class request:
+    POST = {'barterID':1}
+
+form = GetBarterForm(request)
+barter = form.submit()
+print(barter.getOffers())</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>from BarterManagement.Boundaries.GetBarterForm import GetBarterForm
+class request:
+    POST = {'barterID':1}
+
+form = GetBarterForm(request)
+barter = form.submit()
+barter.getOffers()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>from BarterManagement.Boundaries.GetBarterForm import GetBarterForm
+class request:
+    POST = {'barterID':1}
+
+form = GetBarterForm(request)
+barter.getOffers()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>from BarterManagement.Boundaries.GetBarterForm import GetBarterForm
+class request:
+	POST = {'barterID':1}
+
+form = GetBarterForm(request)
+barter.getOffers()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>RecursionError</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>print('h')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/UserManagement/Interactors/LogoutUserControl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Interactors/VerifyUserControl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Interactors/ActivateUserControl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Interactors/DisplayUserControl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Interactors/ChangeUserRoleControl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Interactors/ChangeUserProfileImageControl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Interactors/UpdateUserLastLoginControl.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Interactors/ChangeUserSecretControl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Interactors/ResetUserPasswordControl.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Interactors/RegisterUserControl.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarterManagement/Entities/Offer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarterManagement/Interactors/PlaceOfferControl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-705">
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Interactors/DeactivateUserControl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarterManagement/Interactors/DeleteTransferProofControl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="49" column="32" lean-forward="true" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Interactors/DeleteGroupControl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Interactors/DisplayGroupControl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Interactors/CreateGroupControl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Interactors/RemoveUserFromGroupControl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Interactors/AddUserToGroupControl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Entities/Group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Entities/Privilege.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exceptions/PrivilegeExceptions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Entities/DjangoPrivilege.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#862#1263#0" />
+            <element signature="e#1362#1742#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exceptions/GroupExceptions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Interactors/DisplayPrivilegeControl.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Interactors/DeletePrivilegeControl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Interactors/LoginUserControl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Interactors/CreatePrivilegeControl.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Interactors/RemoveGroupPrivilegeControl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="36" column="62" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Interactors/GiveGroupPrivilegeControl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#4#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Boundaries/GetUserForm.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Boundaries/CurrentUserService.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarterManagement/Entities/BarterProxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="685">
+          <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
+          <folding>
+            <element signature="e#177#360#0" />
+            <element signature="e#438#490#1" />
+            <element signature="e#657#916#0" />
+            <element signature="e#698#916#0" />
+            <element signature="e#964#989#0" />
+            <element signature="e#1050#1076#0" />
+            <element signature="e#1360#1533#0" />
+            <element signature="e#1580#1638#0" />
+            <element signature="e#1683#1739#0" />
+            <element signature="e#1794#1966#0" />
+            <element signature="e#2010#2187#0" />
+            <element signature="e#2229#2402#0" />
+            <element signature="e#2476#2541#0" />
+            <element signature="e#2583#2643#0" />
+            <element signature="e#2688#2751#0" />
+            <element signature="e#2797#2861#0" />
+            <element signature="e#2904#2965#0" />
+            <element signature="e#3013#3079#0" />
+            <element signature="e#3126#3191#0" />
+            <element signature="e#3237#3302#0" />
+            <element signature="e#3371#3433#0" />
+            <element signature="e#3494#3559#0" />
+            <element signature="e#3608#3676#0" />
+            <element signature="e#3739#3806#0" />
+            <element signature="e#3854#3916#0" />
+            <element signature="e#3979#4041#0" />
+            <element signature="e#4083#4144#0" />
+            <element signature="e#4203#4266#0" />
+            <element signature="e#4313#4379#0" />
+            <element signature="e#4443#4511#0" />
+            <element signature="e#4549#4606#0" />
+            <element signature="e#4663#4724#0" />
+            <element signature="e#4774#4835#0" />
+            <element signature="e#4890#4950#0" />
+            <element signature="e#5004#5066#0" />
+            <element signature="e#5138#5203#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarterManagement/Boundaries/BarterDAO.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Entities/User.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exceptions/UserExceptions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Entities/DjangoUser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="309" column="25" lean-forward="true" selection-start-line="309" selection-start-column="25" selection-end-line="309" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#512#596#1" />
+            <element signature="e#634#838#0" />
+            <element signature="e#844#928#1" />
+            <element signature="e#967#1173#0" />
+            <element signature="e#1232#1283#0" />
+            <element signature="e#1349#1409#0" />
+            <element signature="e#1464#1665#0" />
+            <element signature="e#1671#1727#1" />
+            <element signature="e#1770#1871#0" />
+            <element signature="e#1877#1932#1" />
+            <element signature="e#1973#2068#0" />
+            <element signature="e#2074#2133#1" />
+            <element signature="e#2211#2343#0" />
+            <element signature="e#2395#2590#0" />
+            <element signature="e#2659#2686#0" />
+            <element signature="e#2730#2759#0" />
+            <element signature="e#2801#2833#0" />
+            <element signature="e#2874#2900#0" />
+            <element signature="e#2947#2976#0" />
+            <element signature="e#3021#3050#0" />
+            <element signature="e#3103#3140#0" />
+            <element signature="e#3196#3213#0" />
+            <element signature="e#3262#3367#0" />
+            <element signature="e#3305#3367#0" />
+            <element signature="e#3427#3534#0" />
+            <element signature="e#3470#3534#0" />
+            <element signature="e#3593#3699#0" />
+            <element signature="e#3636#3699#0" />
+            <element signature="e#3761#3870#0" />
+            <element signature="e#3804#3870#0" />
+            <element signature="e#3931#4039#0" />
+            <element signature="e#3974#4039#0" />
+            <element signature="e#4099#4206#0" />
+            <element signature="e#4142#4206#0" />
+            <element signature="e#4265#4371#0" />
+            <element signature="e#4308#4371#0" />
+            <element signature="e#4430#4536#0" />
+            <element signature="e#4473#4536#0" />
+            <element signature="e#4602#4715#0" />
+            <element signature="e#4645#4715#0" />
+            <element signature="e#4772#4876#0" />
+            <element signature="e#4815#4876#0" />
+            <element signature="e#4934#5039#0" />
+            <element signature="e#4977#5039#0" />
+            <element signature="e#5100#5208#0" />
+            <element signature="e#5143#5208#0" />
+            <element signature="e#5266#5371#0" />
+            <element signature="e#5309#5371#0" />
+            <element signature="e#5435#5546#0" />
+            <element signature="e#5478#5546#0" />
+            <element signature="e#5607#5715#0" />
+            <element signature="e#5650#5715#0" />
+            <element signature="e#5774#5880#0" />
+            <element signature="e#5817#5880#0" />
+            <element signature="e#5943#5963#0" />
+            <element signature="e#6015#6037#0" />
+            <element signature="e#6082#6110#0" />
+            <element signature="e#6172#6205#0" />
+            <element signature="e#6249#6276#0" />
+            <element signature="e#6336#6367#0" />
+            <element signature="e#6408#6431#0" />
+            <element signature="e#6480#6504#0" />
+            <element signature="e#6547#6579#0" />
+            <element signature="e#6636#6670#0" />
+            <element signature="e#6711#6805#0" />
+            <element signature="e#6858#6884#0" />
+            <element signature="e#6926#6952#0" />
+            <element signature="e#7008#7039#0" />
+            <element signature="e#7082#7109#0" />
+            <element signature="e#7160#7189#0" />
+            <element signature="e#7243#7272#0" />
+            <element signature="e#7338#7367#0" />
+            <element signature="e#7410#7443#0" />
+            <element signature="e#7501#7537#0" />
+            <element signature="e#7579#7599#0" />
+            <element signature="e#7656#7679#0" />
+            <element signature="e#7729#7769#0" />
+            <element signature="e#7834#7877#0" />
+            <element signature="e#7919#7939#0" />
+            <element signature="e#7996#8019#0" />
+            <element signature="e#8069#8100#0" />
+            <element signature="e#8173#8215#0" />
+            <element signature="e#8256#8275#0" />
+            <element signature="e#8330#8351#0" />
+            <element signature="e#8410#8432#0" />
+            <element signature="e#8508#8541#0" />
+            <element signature="e#8714#8748#0" />
+            <element signature="e#8808#8846#0" />
+            <element signature="e#8899#8942#0" />
+            <element signature="e#9008#9052#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarterManagement/Entities/Barter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="199" column="24" lean-forward="true" selection-start-line="196" selection-start-column="8" selection-end-line="199" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Entities/DjangoGroup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="757">
+          <caret line="255" lean-forward="true" selection-start-line="255" selection-end-line="255" />
+          <folding>
+            <element signature="e#491#549#1" />
+            <element signature="e#607#667#0" />
+            <element signature="e#729#733#0" />
+            <element signature="e#739#761#0" />
+            <element signature="e#977#1295#0" />
+            <element signature="e#1175#1254#0" />
+            <element signature="e#1360#1680#0" />
+            <element signature="e#1558#1639#0" />
+            <element signature="e#1744#2063#0" />
+            <element signature="e#1942#2022#0" />
+            <element signature="e#2130#2452#0" />
+            <element signature="e#2328#2411#0" />
+            <element signature="e#2518#2839#0" />
+            <element signature="e#2716#2798#0" />
+            <element signature="e#2904#3224#0" />
+            <element signature="e#3102#3183#0" />
+            <element signature="e#3288#3607#0" />
+            <element signature="e#3486#3566#0" />
+            <element signature="e#3671#3990#0" />
+            <element signature="e#3869#3949#0" />
+            <element signature="e#4061#4387#0" />
+            <element signature="e#4259#4346#0" />
+            <element signature="e#4449#4766#0" />
+            <element signature="e#4647#4725#0" />
+            <element signature="e#4829#5147#0" />
+            <element signature="e#5027#5106#0" />
+            <element signature="e#5213#5534#0" />
+            <element signature="e#5411#5493#0" />
+            <element signature="e#5597#5915#0" />
+            <element signature="e#5795#5874#0" />
+            <element signature="e#5984#6308#0" />
+            <element signature="e#6182#6267#0" />
+            <element signature="e#6374#6695#0" />
+            <element signature="e#6572#6654#0" />
+            <element signature="e#6759#7078#0" />
+            <element signature="e#6957#7037#0" />
+            <element signature="e#7126#7144#0" />
+            <element signature="e#7208#7223#0" />
+            <element signature="e#7276#7294#0" />
+            <element signature="e#7334#7351#0" />
+            <element signature="e#7398#7415#0" />
+            <element signature="e#7469#7493#0" />
+            <element signature="e#7559#7583#0" />
+            <element signature="e#7640#7662#0" />
+            <element signature="e#7736#7763#0" />
+            <element signature="e#7803#7821#0" />
+            <element signature="e#7873#7891#0" />
+            <element signature="e#7934#7952#0" />
+            <element signature="e#8008#8027#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Entities/UserProxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Entities/GroupAccess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Entities/GroupProxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#68#0" expanded="true" />
+            <element signature="e#339#551#0" />
+            <element signature="e#598#622#0" />
+            <element signature="e#682#707#0" />
+            <element signature="e#777#1018#0" />
+            <element signature="e#893#897#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Boundaries/DAOs/GroupDAO.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1286">
+          <caret line="121" column="53" selection-start-line="121" selection-start-column="53" selection-end-line="121" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Boundaries/DAOs/UserDAO.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarterManagement/Entities/BarterAccess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="878">
+          <caret line="68" column="81" selection-start-line="68" selection-start-column="81" selection-end-line="68" selection-end-column="81" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarterManagement/Entities/ProofAccess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManagement/Entities/UserAccess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="26" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StoreManagement/Entities/CategoryAccess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StoreManagement/Entities/ProductAccess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StoreManagement/Entities/StoreAccess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BarterManagement/Entities/OfferAccess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

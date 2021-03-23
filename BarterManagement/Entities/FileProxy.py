@@ -1,0 +1,2 @@
+class FileProxy:
+    pass
